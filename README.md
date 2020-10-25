@@ -32,14 +32,22 @@
 
 2.结构：
 
-![image-20201025101504389](C:\Users\xqchen\AppData\Roaming\Typora\typora-user-images\image-20201025101504389.png)
+![image-20201025101504389](./doc/image-20201025101504389.png)
 
 四、目录介绍
 
-├── doc                         ----- 项目PPT及demo
-├── src                          ----- 项目源码
-│   ├── back-end		 ----- 项目后端源码
-│   ├── front-end		----- 项目前端源码
-│   ├── gateway		  ----- 项目网关源码
-│   ├── device 			 ----- 项目智能笔终端数据上链源码
-└── README.md		----- 本文件
+* README.md		----- 本文件
+
+* doc                         ----- 项目PPT及demo
+
+* src                          ----- 项目源码
+
+  * back-end		 ----- 项目后端源码
+
+  *  front-end		----- 项目前端源码
+
+  *  gateway		  ----- 项目网关源码
+
+  * device 			 ----- 项目智能笔终端数据上链源码
+
+    
