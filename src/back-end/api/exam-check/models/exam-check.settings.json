@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exam_checks",
+  "info": {
+    "name": "exam_check",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "GpenID": {
+      "type": "string"
+    },
+    "StuName": {
+      "type": "string"
+    },
+    "StuIDCardNo": {
+      "type": "string"
+    },
+    "StuPic": {
+      "type": "string"
+    },
+    "Sign": {
+      "type": "string"
+    },
+    "PoEHash": {
+      "type": "string"
+    },
+    "CurrTime": {
+      "type": "string"
+    }
+  }
+}

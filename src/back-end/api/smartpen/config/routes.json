@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/smartpens",
+      "handler": "smartpen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/smartpens/count",
+      "handler": "smartpen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/smartpens/:id",
+      "handler": "smartpen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/smartpens",
+      "handler": "smartpen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/smartpens/:id",
+      "handler": "smartpen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/smartpens/:id",
+      "handler": "smartpen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

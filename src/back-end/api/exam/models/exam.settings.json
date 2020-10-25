@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exams",
+  "info": {
+    "name": "exam",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "start_time": {
+      "type": "datetime"
+    },
+    "end_time": {
+      "type": "datetime"
+    },
+    "title": {
+      "type": "string"
+    },
+    "candidate": {
+      "model": "candidate"
+    },
+    "smartpen": {
+      "model": "smartpen"
+    }
+  }
+}

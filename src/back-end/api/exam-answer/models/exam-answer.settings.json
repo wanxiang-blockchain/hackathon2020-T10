@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exam_answers",
+  "info": {
+    "name": "exam_answer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "GpenID": {
+      "type": "string"
+    },
+    "StuName": {
+      "type": "string"
+    },
+    "StuIDCardNo": {
+      "type": "string"
+    },
+    "Topic": {
+      "type": "string"
+    },
+    "Answer": {
+      "type": "string"
+    },
+    "Sign": {
+      "type": "string"
+    },
+    "PoEHash": {
+      "type": "string"
+    },
+    "CurrTime": {
+      "type": "string"
+    }
+  }
+}

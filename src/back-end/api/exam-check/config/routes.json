@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/exam-checks",
+      "handler": "exam-check.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/exam-checks/count",
+      "handler": "exam-check.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/exam-checks/:id",
+      "handler": "exam-check.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/exam-checks",
+      "handler": "exam-check.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/exam-checks/:id",
+      "handler": "exam-check.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/exam-checks/:id",
+      "handler": "exam-check.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

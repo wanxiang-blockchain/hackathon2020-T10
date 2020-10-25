@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "smartpens",
+  "info": {
+    "name": "smartpen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "GpenID": {
+      "type": "string"
+    },
+    "public_key": {
+      "type": "string"
+    }
+  }
+}

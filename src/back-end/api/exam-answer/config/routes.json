@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/exam-answers",
+      "handler": "exam-answer.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/exam-answers/count",
+      "handler": "exam-answer.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/exam-answers/:id",
+      "handler": "exam-answer.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/exam-answers",
+      "handler": "exam-answer.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/exam-answers/:id",
+      "handler": "exam-answer.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/exam-answers/:id",
+      "handler": "exam-answer.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
